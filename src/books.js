@@ -1,14 +1,24 @@
+import img1 from './images/book-1.jpg';
+import img2 from './images/book-2.jpg';
+import img3 from './images/book-3.jpg';
+
 export const books = [
   {
     author: 'Matthew Perry',
     title: 'Friends, Lovers and the Big Terrible Thing',
-    img: 'https://images-na.ssl-images-amazon.com/images/I/81tdvyI0MeL._AC_UL600_SR600,400_.jpg',
+    img: img1,
     id: 1,
   },
   {
     author: 'Rebecca Yarros',
     title: 'Fourth Wing',
-    img: 'https://images-na.ssl-images-amazon.com/images/I/91n7p-j5aqL._AC_UL600_SR600,400_.jpg',
+    img: img2,
     id: 2,
+  },
+  {
+    author: 'J.R.R. Tolkien',
+    title: 'The Lord of the Rings',
+    img: img3,
+    id: 3,
   },
 ];
